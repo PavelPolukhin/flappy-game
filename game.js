@@ -159,8 +159,6 @@ function loop() {
         }
     }
 
-    console.log(pipeGap)
-
     birdVelocity += birdAcceleration;
     birdY += birdVelocity;
     if (collisionCheck()) {
